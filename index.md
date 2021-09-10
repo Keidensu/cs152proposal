@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+### Clustering of Movies based on Genre
 
-You can use the [editor on GitHub](https://github.com/Keidensu/cs152proposal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project Description
+I will focus on training a Neural Net (NN) on the clustering of movies based on their genres. There are many online databases that contain lists of movies and tags associated with them. These databases can be used to train the NN and let the NN cluster the movies based on the similarities of their genres.
 
-### Markdown
+The trained NN will be deployed as an application in a website, allowing a user to pass in a genre to be provided with movies of that genre or similar. If time allows and the project is going well, the project can be extended by implementing a light front end interface that gets the genre of a movie not in the database, then passes that back to the NN for analysis.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The longer term goal is to improve the NN to cluster more accurately (e.g. action and adventure, or horror and thriller clustered closely together), and ensure that the NN doesn't only recommend movies of the exact same genre as what is provided.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Keidensu/cs152proposal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Project Goals
+1. Find a movie database with genre tags for every movie.
+2. Ensure dataset has large variety of genres.
+3. Train neural net to cluster movies by genre.
+4. Explore extension of front end.
+5. Explore improvement of clustering to include similar genres, not just genres of the same type.
